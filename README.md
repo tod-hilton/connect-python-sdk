@@ -73,7 +73,7 @@ from squareconnect.apis.transactions_api import TransactionsApi
 # setup authorization
 squareconnect.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 # create an instance of the Transaction API class
-api_instance = TransactionApi()
+api_instance = TransactionsApi()
 location_id = 'YOUR_LOCATION_ID'
 nonce = 'YOUR_NONCE'
 
